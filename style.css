@@ -1,0 +1,107 @@
+#landing
+{
+    background:url("https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-repeat:round;
+    background-size:cover;
+    margin:0;
+}
+#contact
+{
+    text-align: center;
+}
+#linkedin
+{
+    font-size:30px;
+    color:rgb(23, 91, 117);
+    margin-left:10px;
+    margin-top:5px;
+}
+#github
+{
+    font-size:30px;
+    color:black;
+    margin-left:10px;
+}
+#resume
+{
+    text-decoration: none;
+    font-family:Jura;
+    color:white;
+    font-weight:800;
+}
+#resume:hover
+{
+    text-decoration: underline;
+}
+h1
+{
+    font-family:Dancing Script;
+    color:white;
+    font-weight:normal;
+    font-size:35px;
+}
+#project-div a
+{
+    text-decoration: none;
+    color:black;
+    font-weight:600;
+    font-family: Jura;
+}
+#project-div
+{
+    border:1px green solid;
+    width:15%;
+    margin:auto;
+    text-align: center;
+    padding:12px;
+    border-radius:5px;
+    margin-top:12%;
+    transition:.2s linear;
+}
+#project-div:hover
+{
+    background: gainsboro;
+    border:1px gainsboro solid;
+    padding:15px;
+}
+#projects
+{
+    margin-top:25%;
+}
+#projects div
+{
+    float: left;
+    margin-left:2%;
+}
+.project-topic img
+{
+    width:100%;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px; 
+}
+.project-topic
+{
+    width:25%;
+    border-radius: 5px;
+    background:gainsboro;
+}
+.project-topic p
+{
+    font-family: Open Sans Condensed;
+}
+#live
+{
+    text-decoration: none;
+    color:black;
+}
+#code
+{
+    text-decoration: none;
+    color:black;
+    margin-left:10px;
+}
+#gmail img
+{
+    width:2%;
+    margin-left:10px;
+}
