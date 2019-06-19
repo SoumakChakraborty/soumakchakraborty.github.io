@@ -1,6 +1,6 @@
 #landing
 {
-    background:url("https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background:url("https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=410&q=80");
     background-repeat:round;
     background-size:cover;
     margin:0;
@@ -36,7 +36,7 @@
 h1
 {
     font-family:Dancing Script;
-    color:white;
+    color:black;
     font-weight:normal;
     font-size:35px;
 }
@@ -49,7 +49,8 @@ h1
 }
 #project-div
 {
-    border:1px green solid;
+    border:1px gainsboro solid;
+    background:gainsboro;
     width:15%;
     margin:auto;
     text-align: center;
@@ -60,18 +61,17 @@ h1
 }
 #project-div:hover
 {
-    background: gainsboro;
-    border:1px gainsboro solid;
     padding:15px;
 }
 #projects
 {
-    margin-top:25%;
+    margin-top:28%;
 }
-#projects div
+#projects .project-topic
 {
     float: left;
-    margin-left:2%;
+    margin-left:3%;
+    margin-top:3%;
 }
 .project-topic img
 {
@@ -81,20 +81,24 @@ h1
 }
 .project-topic
 {
-    width:25%;
+    width:30%;
     border-radius: 5px;
     background:gainsboro;
+}
+.project-topic div
+{
+    text-align:center;
 }
 .project-topic p
 {
     font-family: Open Sans Condensed;
 }
-#live
+.live
 {
     text-decoration: none;
     color:black;
 }
-#code
+.code
 {
     text-decoration: none;
     color:black;
@@ -104,4 +108,101 @@ h1
 {
     width:2%;
     margin-left:10px;
+}
+@media screen and (max-width:720px)
+{
+    #project-div
+   {
+     width:30%;
+     margin-top:30%;
+   }
+   #gmail img
+   {
+    width:3.5%;
+    margin-left:10px;
+   }
+   .project-topic
+   {
+    width:45%;
+   }
+   #projects
+   {
+    margin-top:60%;
+   }   
+}
+@media screen and (max-width:480px)
+{
+    #project-div
+   {
+     width:50%;
+     margin-top:30%;
+   }
+   #gmail img
+   {
+    width:5%;
+    margin-left:10px;
+   }
+   .project-topic
+   {
+    width:95%;
+   }
+   #projects
+   {
+    margin-top:60%;
+   }   
+}
+@media screen and (max-width:360px)
+{
+    #project-div
+   {
+     width:70%;
+     margin-top:45%;
+   }
+   #gmail img
+   {
+    width:7%;
+    margin-left:10px;
+   }
+   .project-topic
+   {
+    width:95%;
+   }
+   #projects
+   {
+    margin-top:85%;
+   }   
+}
+@media screen and (max-width:240px)
+{
+    #project-div
+   {
+     width:90%;
+     margin-top:65%;
+   }
+   #gmail img
+   {
+    width:9%;
+    margin-left:10px;
+   }
+   .project-topic
+   {
+    width:95%;
+   }
+   #projects
+   {
+    margin-top:95%;
+   }   
+   #linkedin
+{
+    font-size:20px;
+    color:rgb(23, 91, 117);
+    margin-left:8px;
+    margin-top:5px;
+}
+#github
+{
+    font-size:20px;
+    color:black;
+    margin-left:8px;
+}
 }
